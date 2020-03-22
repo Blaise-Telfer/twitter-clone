@@ -1,0 +1,112 @@
+/*global variables*/
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+html, body{
+	height: 100%;
+	outline: none;
+	font-family: 'Russo One', sans-serif;
+}
+body{
+	line-height: 1.2em;
+	white-space: normal;
+	margin: 0;
+	background: linear-gradient(to right, #6e6e6e, #eee);
+}
+.canvas{
+	position: relative;
+	left: 0;
+	right: 0;
+	width: 100%;
+	min-height: 100%;
+}
+.wrapper{
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 30px;
+	padding-left: 30px;
+	width: 75%;
+	height: 100%;
+}
+
+/*header*/
+.top-bar{
+	background: #000;
+	background-size: cover;
+	box-shadow: 0 0 20px #333;
+	color: #eee;
+}
+.title{
+	text-align: center;
+	padding: 30px;
+	font-size: 50px;
+	line-height: 1.2;
+}
+.reg-form{
+	padding: 5px 0;
+	font-family: 'Righteous', cursive;
+}
+.reg-form, .loading{
+	width: 50%;
+	margin: 0 auto;
+}
+label{
+	font-size: 20px;
+}
+.input{
+	width: 100%;
+}
+input{
+	height: 30px;
+}
+textarea{
+	height: 100px;
+}
+.btn-primary{
+	background: #b4b4b4;
+	color: #000;
+	padding: 12px 24px;
+	margin: 20px 0;
+	border: none;
+	cursor: pointer;
+	font-size: 18px;
+	border-radius: 30px;
+	font-family: 'Righteous', cursive;
+}
+.btn-primary:hover{
+	background: #eee;
+}
+.loading{
+	text-align: center;
+	padding: 10px;
+}
+
+/*main posts*/
+.blurbs{
+	width: 85%;
+	margin: 40px auto;
+}
+.blurbs div{
+	margin-top: 15px;
+	padding: 0 20px;
+	background: #eee;
+	word-wrap: break-word;
+	color: #000;
+}
+.blurbs div:nth-of-type(2n){
+	background: #b4b4b4;
+}
+.blurbs h2{
+	font-size: 25px;
+	padding: 15px 0;
+}
+.blurbs p{
+	font-size: 18px;
+	margin: 20px 0;
+	font-family: 'Rokkitt', serif;
+}
+.blurbs small{
+	font-size: 8px;
+}
